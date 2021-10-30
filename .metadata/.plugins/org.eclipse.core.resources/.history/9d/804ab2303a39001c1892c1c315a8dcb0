@@ -1,0 +1,18 @@
+
+public class str {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		abc ba;
+		
+		String st="Bhartesh";
+		ba.str(st);
+	}
+	 class abc{
+			private String st="st";
+			final void str(String st) {
+				this.st=st;
+				System.out.println(st);
+			}
+		}
+}

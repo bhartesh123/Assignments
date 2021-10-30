@@ -1,0 +1,14 @@
+
+public class str {
+	class abc{
+		private String st="st";
+		final void str(String st) {
+			this.st=st;
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String st="Bhartesh";
+	}
+
+}
