@@ -1,8 +1,8 @@
-package com.in28minutes.jee;
+package bhartesh;
 
 public class LoginService {
 	public boolean validateUser(String user, String password) {
-		return user.equalsIgnoreCase("Bhartesh") && password.equals("pass");
+		return user.equals("Bhartesh") && password.equals("pass");
 	}
 
 }

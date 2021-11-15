@@ -7,10 +7,10 @@
  <h2>Enter principle amount, no. of years and rate of Interest</h2> 
  
     <form action="/login" method="POST">
-       <a  >Principle amount : <input name="amount" type="text" /></a>
-       <a>No. of Years : <input name="time" type="text" /></a> 
-       <a>Rate of Interest <input name="rate" type="text"/></a>
-       <input type="submit" value="Find S.I" />
+       <a>Name : <input name="name" type="text" /></a><br>
+       <a>Password : <input name="password" type="password" /></a> 
+  
+       <input type="submit" value="Validate" />
     </form>
 </body>
 </html>

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
 
-	private LoginService service = new LoginService();
+	//private LoginService service = new LoginService();
 
 	@Override
 	protected void doGet(HttpServletRequest request,
@@ -23,24 +23,6 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws IOException, ServletException {
-		String amount = request.getParameter("amount");
-		String time = request.getParameter("time");
-		String rate= request.getParameter("rate");
-		Integer n1=Integer.parseInt(amount);
-		Integer n2=Integer.parseInt(time);
-		Integer n3=Integer.parseInt(rate);
-		double x;
-		x=(n1*n2*n3)/100;
-		System.out.println(x);
-		request.setAttribute("amount", n1);
-		request.setAttribute("time", n2);
-		request.setAttribute("rate", n3);
-		request.setAttribute("x", x);
-		request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward( request,response);
-		System.out.println("Amount = "+n1);
-		System.out.println("Time= "+n2);
-		System.out.println("rate=" +n3);
-		
 		
 		//boolean isValidUser = service.validateUser(name, password);
 		/*
