@@ -10,9 +10,12 @@ System.out.println("This is called Scriplet");
 %>
 </head>
 <body>
+<p><font color="red">${Error}</font></p>
 Click The below link to display HelloWorld
 
-<form action="/login1.do" method="post">
+<form action="/login.do" method="post">
+Enter Name to Display Welcome Message<input type="text" name="name">
+Password: <input type="password" name="password">
 <input type="submit" value="Click This ">
 </form>
 </body>

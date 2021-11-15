@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Bhartesh's Web-Application</title>
 </head>
 <body>
-	WelCome
-	
+	Well-Come
+	${name}
 	
 	HelloWorld
 </body>
