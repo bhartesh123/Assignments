@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<bean id="Hello" class="SpringExample.HelloWorld" autowire="byName">
+	
+</bean>
+	<bean id="trgA" class="SpringExample.Triangle">
+		<property name="x" value="20.0"/>
+		<property name="y" value="-20.0"/>
+	</bean>
+	<bean id="trgB" class="SpringExample.Triangle">
+		<property name="x" value="0.0"/>
+		<property name="y" value="-10.0"/>
+	</bean>
+	<bean id="trgC" class="SpringExample.Triangle">
+		<property name="x" value="25.0"/>
+		<property name="y" value="-25.0"/>
+	</bean>
+</beans>

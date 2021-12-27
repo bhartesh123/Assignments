@@ -1,5 +1,6 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\BSURWASH\\eclipse-workspace\\.git;C\:\\Users\\BSURWASH\\eclipse-workspace\\Assignments\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;Assignments\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\BSURWASH\\git\\Assignments\\.git;C\:\\Users\\BSURWASH\\eclipse-workspace\\.git;C\:\\Users\\BSURWASH\\Downloads\\RestAssgQ3\\SpringRest_Q3\\.git;C\:\\CaseStudy\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\BSURWASH\\git\\Assignments\\.git;.git;C\:\\Users\\BSURWASH\\Downloads\\RestAssgQ3\\SpringRest_Q3\\.git;C\:\\CaseStudy\\.git;
 RepositoryGroups.uuids=
 RepositorySearchDialogSearchPath=C\:\\Users\\BSURWASH\\git
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

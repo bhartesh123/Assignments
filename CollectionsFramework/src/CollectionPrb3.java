@@ -18,7 +18,6 @@ public class CollectionPrb3 {
 			tree.add(new employee(24,"Abhsy","ECE",30000));
 			tree.add(new employee(21,"Harshita","CE",40000));
 			tree.add(new employee(19,"Aditya","CSE",40000));
-			tree.add(new employee(9,"Titi","CSE",50000));
 			tree.add(new employee(34,"Suyash","ECE",70000));
 			tree.add(new employee(13,"Shreyaunsh","ME",50000));
 			//System.out.print(tree);
@@ -33,7 +32,6 @@ public class CollectionPrb3 {
 			tree1.add(new employee(24,"Abhsy","ECE",30000));
 			tree1.add(new employee(21,"Harshita","CE",40000));
 			tree1.add(new employee(19,"Aditya","CSE",40000));
-			tree1.add(new employee(9,"Titi","CSE",50000));
 			tree1.add(new employee(34,"Suyash","ECE",70000));
 			tree1.add(new employee(13,"Shreyaunsh","ME",50000));
 			//System.out.print(tree);
@@ -48,7 +46,6 @@ public class CollectionPrb3 {
 			tree2.add(new employee(24,"Abhsy","ECE",30000));
 			tree2.add(new employee(21,"Harshita","CE",40000));
 			tree2.add(new employee(19,"Aditya","CSE",40000));
-			tree2.add(new employee(9,"Titi","CSE",50000));
 			tree2.add(new employee(34,"Suyash","ECE",70000));
 			tree2.add(new employee(13,"Shreyaunsh","ME",50000));
 			//System.out.print(tree);
@@ -62,7 +59,6 @@ public class CollectionPrb3 {
 			tree3.add(new employee(24,"Abhsy","ECE",30000));
 			tree3.add(new employee(21,"Harshita","CE",40000));
 			tree3.add(new employee(19,"Aditya","CSE",40000));
-			tree3.add(new employee(9,"Titi","CSE",50000));
 			tree3.add(new employee(34,"Suyash","ECE",70000));
 			tree3.add(new employee(13,"Shreyaunsh","ME",50000));
 			//System.out.print(tree);

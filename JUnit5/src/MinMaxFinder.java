@@ -20,11 +20,5 @@ public class MinMaxFinder {
 		
 		return new int[] {min,max};
 	}
-	/*public static void main(String []args) {
-		int a[]= {56,34,7,3,54,3,34,34,53};
-		int b[]=findMinMax(a);
-		for(int i=0;i<b.length;i++) {
-		System.out.println(b[i]);
-		}
-	}*/
+	
 }

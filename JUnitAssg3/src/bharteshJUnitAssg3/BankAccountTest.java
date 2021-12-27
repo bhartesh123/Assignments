@@ -11,13 +11,13 @@ class BankAccountTest {
 	@DisplayName("Testing Balance")
 	void test() {
 		BankAccount bank=new BankAccount();
-		try{
-			bank.withdraw(2000.00);
-			
-		}catch(InsufficientFundException e)
-		{
-			System.out.println(e);
-		}
+		
+		  try{ bank.withdraw(21000.00);
+		  
+		  }catch(InsufficientFundException e) {
+			  System.out.println(e);
+		  }
+		 
 	}
 
 }
